@@ -23,6 +23,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body, html{
+    overflow-x: hidden;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -606,8 +610,5 @@ footer{
     }
     .input-field{
         width: 100%;
-    }
-    body, html{
-        overflow-x: hidden;
-    }
+    }   
 }
