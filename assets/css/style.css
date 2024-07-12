@@ -607,4 +607,7 @@ footer{
     .input-field{
         width: 100%;
     }
+    body, html{
+        overflow-x: hidden;
+    }
 }
