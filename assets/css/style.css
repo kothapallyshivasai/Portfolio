@@ -46,7 +46,7 @@ html{
     background: #bbb;
 }
 
-.btn{
+.btn1{
     font-weight: 500;
     padding: 12px 20px;
     background: #efefef;
@@ -55,10 +55,10 @@ html{
     cursor: pointer;
     transition: .4s;
 }
-.btn>i{
+.btn1>i{
     margin-left: 10px;
 }
-.btn:hover{
+.btn1:hover{
     background: var(--second-color);
     color: var(--color-white);
 }
@@ -70,7 +70,7 @@ i{
 body{
     background: var(--body-color);
 }
-.container{
+.container1{
     width: 100%;
     position: relative;
 }
@@ -109,7 +109,7 @@ nav{
     list-style: none;
     position: relative;
 }
-.nav-link{
+.nav-link1{
     text-decoration: none;
     color: var(--text-color-second);
     font-weight: 500;
@@ -430,7 +430,7 @@ h3{
     z-index: 2;
 }
 
-.form-control{
+.form-control1{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -441,7 +441,7 @@ h3{
     gap: 10px;
     width: 100%;
 }
-.input-field{
+.input-field1{
     width: 50%;
     height: 55px;
     background: transparent;
@@ -460,14 +460,14 @@ textarea{
     outline: none;
     resize: none;
 }
-.form-button>.btn{
+.form-button>.btn1{
     display: flex;
     align-items: center;
     justify-content: center;
     background: var(--second-color);
     color: var(--color-white);
 }
-.form-button>.btn:hover{
+.form-button>.btn1:hover{
     background: #00B5E7;
 }
 .form-button i{
@@ -575,13 +575,13 @@ footer{
         width: 150px;
         height: 150px;
     }
-    .row{
+    .row1{
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 50px;
     }
-    .col{
+    .col1{
         display: flex;
         justify-content: center;
         width: 100%;
@@ -608,7 +608,7 @@ footer{
     .form-inputs{
         flex-direction: column;
     }
-    .input-field{
+    .input-field1{
         width: 100%;
     }   
 }

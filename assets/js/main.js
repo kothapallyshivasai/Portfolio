@@ -52,6 +52,7 @@ sr.reveal('.social_icons',{delay: 200})
 sr.reveal('.featured-image',{delay: 300})
 
 sr.reveal('.project-box',{interval: 200})
+sr.reveal('.projects-view',{interval: 300})
 
 sr.reveal('.top-header',{})
 
@@ -73,7 +74,7 @@ reset: true
 })
 
 srRight.reveal('.skills-box',{delay: 100})
-srRight.reveal('.form-control',{delay: 100})
+srRight.reveal('.form-control1',{delay: 100})
 
 const sections = document.querySelectorAll('section[id]')
 
