@@ -60,7 +60,7 @@ const srLeft = ScrollReveal({
 origin: 'left',
 distance: '80px',
 duration: 2000,
-reset: true
+reset: false
 })
 
 srLeft.reveal('.about-info',{delay: 100})
