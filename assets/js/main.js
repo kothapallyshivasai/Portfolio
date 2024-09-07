@@ -28,6 +28,16 @@ function headerShadow() {
   }
 }
 
+const srChess = ScrollReveal({
+  origin: 'top',
+  distance: '80px',
+  duration: 2000,
+  reset: false
+});
+
+srChess.reveal('.chess-section',{delay: 100});
+srChess.reveal('.tic-section',{delay: 100});
+
 
 var typingEffect = new Typed(".typedText",{
   strings : ["Full Stack Developer", "Machine Learning Engineer", "Django Developer", "Spring-Boot Developer", "ReactJS Developer"],
