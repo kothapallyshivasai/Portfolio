@@ -53,6 +53,7 @@ sr.reveal('.featured-image',{delay: 300})
 
 sr.reveal('.project-box',{interval: 200})
 sr.reveal('.projects-view',{interval: 300})
+sr.reveal('.contact-view',{interval: 300})
 
 sr.reveal('.top-header',{})
 
