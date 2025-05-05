@@ -614,6 +614,5 @@ footer{
 }
 
 .carousel-inner img {
-    height: 400px; /* Or any consistent height */
     object-fit: cover;
 }
